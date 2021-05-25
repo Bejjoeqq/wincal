@@ -1008,9 +1008,10 @@ public class Form1 extends javax.swing.JFrame implements KeyListener{
         if(lblDisplay.getSize().width>298){
             lblDisplay.setFont(new Font(lblDisplay.getFont().getName(), Font.PLAIN, lblDisplay.getFont().getSize()-5));
         }
-        if(lblDisplay.getSize().width>150 && lblDisplay.getText().length()>11){
-            lblDisplay.setFont(new Font(lblDisplay.getFont().getName(), Font.PLAIN, lblDisplay.getFont().getSize()-5));
-        }
+        //bug
+//        if(lblDisplay.getSize().width>200 && lblDisplay.getText().length()>11){
+//            lblDisplay.setFont(new Font(lblDisplay.getFont().getName(), Font.PLAIN, lblDisplay.getFont().getSize()-5));
+//        }
         overflow();
     }
     private void tmblComa(){
